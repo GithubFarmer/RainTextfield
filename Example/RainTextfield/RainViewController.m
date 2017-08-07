@@ -7,6 +7,7 @@
 //
 
 #import "RainViewController.h"
+#import <RainTextfield/RainTextField.h>
 
 @interface RainViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    RainTextField *text = [[RainTextField alloc]initWithFrame:CGRectMake(20, 100, 200, 40)];
+    text.textFieldKeyBoard = RainTextFieldKeyBoardwithX;
+    [self.view addSubview:text];
+    text.layer.borderWidth = 1;
+    text.layer.borderColor = [UIColor redColor].CGColor;
 }
 
 - (void)didReceiveMemoryWarning

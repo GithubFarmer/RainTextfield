@@ -7,7 +7,6 @@
 //
 
 #import "RainNumberKeyBoardView.h"
-#import "RainHeader.h"
 
 static NSInteger const RainDeleteItemTag = 13;
 static NSInteger const RainSureItemTag = 14;

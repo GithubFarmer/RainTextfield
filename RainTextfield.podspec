@@ -18,20 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+RainTextfield是对UItextfield的二次封装，对textfield的inputView的封装，所以一些原声的功能会失效。
                        DESC
 
-  s.homepage         = 'https://github.com/yu_ios_mark@163.com/RainTextfield'
+  s.homepage         = 'https://github.com/GithubFarmer/RainTextfield'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yu_ios_mark@163.com' => 'yuyongquan@iscs.com.cn' }
-  s.source           = { :git => 'https://github.com/yu_ios_mark@163.com/RainTextfield.git', :tag => s.version.to_s }
+  s.author           = { 'GithubFarmer' }
+  s.source           = { :git => 'https://github.com/GithubFarmer/RainTextfield.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RainTextfield/Classes/**/*'
-  
+  s.resource = 'RainTextfield/Resources'
   # s.resource_bundles = {
   #   'RainTextfield' => ['RainTextfield/Assets/*.png']
   # }
