@@ -31,7 +31,6 @@ RainTextfield是对UItextfield的二次封装，对textfield的inputView的封�
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RainTextfield/Classes/**/*'
-  s.resource = 'RainTextfield/Resources'
   # s.resource_bundles = {
   #   'RainTextfield' => ['RainTextfield/Assets/*.png']
   # }
