@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'RainTextfield_Example' do
+  pod 'RainTextfield', :path => '../'
+
+  target 'RainTextfield_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
