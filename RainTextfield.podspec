@@ -24,7 +24,7 @@ RainTextfield是对UItextfield的二次封装，对textfield的inputView的封�
   s.homepage         = 'https://github.com/GithubFarmer/RainTextfield'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'GithubFarmer' }
+  s.author           =  'GithubFarmer'
   s.source           = { :git => 'https://github.com/GithubFarmer/RainTextfield.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
